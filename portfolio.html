@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="Index.html" class="logo"
+        ><img src="Images/snlogo-removebg-preview.png" alt="Simon Nilsson Logo"
+      /></a>
+      <nav class="navbar">
+        <a href="Index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html" class="active">Portfolio</a>
+        <a href="CV.html">CV</a>
+        <a href="contact.html">Contact</a>
+        <a href="WCAGA+AA.html">Guidelines</a>
+      </nav>
+    </header>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <a href="#" class="close-button">&#10006;</a>
+        <h2>Project One</h2>
+        <p>
+          My first project where I coded a "mini" bank. You could transfer,
+          withdraw and take loans.
+        </p>
+      </div>
+    </div>
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <a href="#" class="close-button">&#10006;</a>
+        <h2>Project Two</h2>
+        <p>
+          Our first group-project. We used OOP and created a more developed
+          bank-application named Sharp Shooters Bank.
+        </p>
+      </div>
+    </div>
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <a href="#" class="close-button">&#10006;</a>
+        <h2>Project Three</h2>
+        <p>
+          My first database project which involved setting up a database for a
+          school.
+        </p>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>ELITE</p>
+        <iframe
+          id="youtubeVideo"
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/GIhcL8K4shg?si=gGD2ErPVphhk64XL&amp;start=2111337"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <section id="projects">
+      <p class="section-text-p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="projects-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/Images/ATM.jpg"
+                alt="Project 1 ATM/Bank"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-title">Project One - ATM-Machine</h2>
+            <div class="btn-container">
+              <a
+                href="https://github.com/simonnilsson9/Individuellt-projekt"
+                target="_blank"
+              >
+                <button class="btn btn-color2 project-btn">Github</button></a
+              >
+              <a href="#modal1">
+                <button type="button" class="btn btn-color2 project-btn">
+                  More Info
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/Images/Sharp Shooters Bank.jpg"
+                alt="Project 2 Sharp Shooters Bank"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-title">Project Two - Sharp Shooters Bank</h2>
+            <div class="btn-container">
+              <a
+                href="https://github.com/Eddanz/Sharp-Shooters"
+                target="_blank"
+              >
+                <button class="btn btn-color2 project-btn">Github</button></a
+              >
+              <a href="#modal2">
+                <button type="button" class="btn btn-color2 project-btn">
+                  More Info
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="/Images/School-Database.jpg"
+                alt="Project 3 School Database"
+                class="project-img"
+              />
+            </div>
+            <h2 class="project-title">Project Three - School Database</h2>
+            <div class="btn-container">
+              <a
+                href="https://github.com/simonnilsson9/DB-School-Project"
+                target="_blank"
+              >
+                <button class="btn btn-color2 project-btn">Github</button></a
+              >
+              <a href="#modal3">
+                <button type="button" class="btn btn-color2 project-btn">
+                  More Info
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        &copy; All rights reserved & Designed by
+        <span class="designer">Simon Nilsson</span>
+      </p>
+    </footer>
+    <script src="./JavaScript/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbriktlinjer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap">
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+    <header class="header">
+        <a href="Index.html" class="logo"
+          ><img src="Images/snlogo-removebg-preview.png" alt="Simon N Logo"
+        /></a>
+        <nav class="navbar">
+          <a href="Index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="CV.html">CV</a>
+          <a href="contact.html" >Contact</a>
+          <a href="WCAGA+AA.html" class="active">Guidelines</a>
+        </nav>
+      </header>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>ELITE</p>
+          <iframe id="youtubeVideo"
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/GIhcL8K4shg?si=gGD2ErPVphhk64XL&amp;start=2111337"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <section id="web-guidelines">
+        <p class="section-text-p1">This Site's</p>
+        <h1 class="title">Web Content Accessibility Guidelines</h1>
+        <div class="web-details-containers">
+          <div class="web-container">
+            <div class="web-details-container">
+              <h2>Guidelines</h2>
+              <ul>
+                <li>Tillhandahålla textalternativ för icke-textinnehåll (WCAG 1.1): Se till att allt icke-textinnehåll som bilder, grafik eller ljudfiler har alternativa textbeskrivningar för att hjälpa personer med synnedsättning.<br>- Detta görs genom att jag har satt alternativ text till varje bild.</li>
+                <li>Användbart och navigerbart innehåll (WCAG 2.4): Se till att webbsidan är användbar och lätt att navigera för personer med olika funktionshinder. Detta inkluderar att tillhandahålla logiska navigationsstrukturer och interaktionsmönster. <br>- Detta görs genom att jag har en tydlig navigationsbar och tydliga strukturer på hemsidan.</li>
+                <li>Skalbar och anpassningsbar innehåll (WCAG 1.4): Webbsidor bör kunna skalas upp utan att förlora funktionalitet eller förstöra layouten, för att möta behoven hos användare som använder förstoring eller andra anpassningsverktyg. <br>- Detta görs genom att jag har gjort sidan responsiv vilket gör att den anpassar sig utifrån vilken skärmstorlek som används.</li>
+                <li>Användning av ARIA-länder (WCAG 4.1.2): Använd WAI-ARIA (Accessible Rich Internet Applications) för att förbättra tillgängligheten för dynamiskt innehåll, särskilt för användare av skärmläsare. <br>- Detta görs genom att jag har gjort sidan responsiv vilket gör att den anpassar sig utifrån vilken skärmstorlek som används.</li>
+                <li>Tillgänglighet för färgkontrast (WCAG 1.4.3): Se till att det finns tillräcklig kontrast mellan text och bakgrund för att underlätta läsbarheten för personer med nedsatt syn. <br>- Detta uppfylls eftersom jag ej har tagit allt för skarpa färger utan hållt mig till svart och vit vilket är lätt att urskilja.</li>
+                <li>Tillgänglighet vid inmatning (WCAG 2.1): Se till att användare kan navigera och interagera med webbsidan med olika inmatningsenheter som tangentbord eller pekenheter. <br>-Man kan använda muspekaren för att navigera. Vet ej riktigt hur man implementerar så den är helt anpassad för tangentbord.</li>
+                <li>trukturerad semantik (WCAG 4.1.1): Använd lämplig HTML-struktur för att markera upp innehållet på ett semantiskt korrekt sätt, vilket underlättar förståelsen och navigeringen för användare och hjälper till med skärmläsning. <br>- Jag använder mig av tydliga klasser och på så sätt är det väldigt tydligt att följa min struktur, både i HTML och CSS.</li>
+                <li>Tillgänglighet för rörligt innehåll (WCAG 2.2): Se till att rörligt innehåll, såsom blinkande eller rullande text, kan stoppas, pausas eller döljas för att undvika distraherande eller potentiellt farliga effekter för användare med kognitiva funktionshinder. <br>- Har inget rörligt innehåll.</li>
+                <li>Tillgänglighet för ljudkontroll (WCAG 2.5): Se till att användare har möjlighet att kontrollera ljudinnehåll, inklusive möjligheten att pausa, spela upp och justera ljudnivån, för att möta behoven hos användare med hörselskador. <br>Har inget rörligt innehåll men hade varit lätt att fixa utifall att jag hade haft det.</li>
+                <li>Tillgänglighet för innehållsuppdateringar (WCAG 3.2): Se till att användare kan upptäcka och förstå när innehållet på webbsidan har uppdaterats eller förändrats, särskilt om förändringarna sker dynamiskt eller utan användarinteraktion.</li>
+                <li>Tillgänglighet för anpassningsbara gränssnitt (WCAG 4.1.4): Möjliggör anpassning av gränssnittet genom att tillhandahålla alternativa layouter, färger och formatinställningar för att möta individuella användares preferenser och behov. <br>- Inte implementerat men man hade kunant fixa ett alternativt tema.</li>
+            
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      <footer>
+        <p>
+          &copy; All rights reserved & Designed by
+          <span class="designer">Simon Nilsson</span>
+        </p>
+    </footer>
+    <script src="./JavaScript/script.js"></script>
+</body>
+</html>

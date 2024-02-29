@@ -1,0 +1,59 @@
+{
+    "education":[
+        {
+            "name": "Håstensskolan",
+            "program": "Elementary School",
+            "graduationyear": "2006-2016"
+        },
+        {
+            
+            "name": "Peder Skrivares Skola",
+            "program": "Nature Science Program",
+            "graduationyear": "2016-2019"
+        },
+        {            
+            "name": "Campus Varberg",
+            "program": "System Developer .NET",
+            "graduationyear": "2023-2025"
+        }
+    ],
+
+    "work":[
+        {            
+            "company": "Gekås Ullared",
+            "title": "Shop Assistans",
+            "year": "2016-2019"
+        },
+        {            
+            "company": "PostNord Varberg",
+            "title": "Package Delivery Person",
+            "year": "2019-2025"
+        }
+    ],
+
+    "skills":[
+        {            
+            "name": "HTML"
+        },
+        {            
+            "name": "CSS"
+        },
+        {            
+            "name": "JavaScript"
+        },
+        {            
+            "name": "React"
+        },
+        {           
+            "name": "C#"
+        },
+        {            
+            "name": "SQL/SSMS"
+        },
+        {            
+            "name": "Scrum"
+        }
+
+    ]
+
+}
