@@ -1,4 +1,4 @@
-fetch('/Files/CV.json')
+fetch('Files/CV.json')
   .then((response) => response.json())
   .then((data) => {
     generateCV(data);
