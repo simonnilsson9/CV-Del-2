@@ -1,4 +1,4 @@
-fetch('https://simonnilsson9.github.io/CV-Del-2/Files/CV.json')
+fetch("CV.json")
   .then((response) => response.json())
   .then((data) => {
     generateCV(data);
